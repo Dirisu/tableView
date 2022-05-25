@@ -22,7 +22,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         tableView.delegate = self
         tableView.dataSource = self
-        products.text = "Happy Customer"
+        products.text = ""
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
